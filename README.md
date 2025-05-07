@@ -10,6 +10,7 @@ This project provides a comprehensive evaluation of the replicability of Brain-W
 * **DWI Metrics:** We assessed replicability for streamline connectivity (SC), fractional anisotropy (FA), radial diffusivity (RD), axial diffusivity (AD), and apparent diffusion coefficient (ADC).
 * **Replicability Criteria:** A stringent definition of replicability was used, requiring a model to achieve significant prediction (p<0.05) in an unseen replication sample in over 80% of data shuffles, given a significant discovery set model.
 
+[View analysis notebooks](https://github.com/rkotikalapudi/brain-behaviour-models.github.io/tree/master/notebooks)
 ### Key Findings
 
 * Overall, 36% (21 out of 58) of the studied phenotypes demonstrated replicable BWAS in the HCP dataset.
