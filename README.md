@@ -36,5 +36,5 @@ This work highlights the critical roles of sample size, choice of connectome/DWI
 ### Machine Learning Pipeline
 <img src="pipe.svg" width="400" height="300">
 
-_### Data Availability Statement
-The Jupyter notebooks containing the analysis code, key methodological information, and processing steps for this study are provided within this repository. These notebooks allow for an understanding of how the main results were generated. The primary processed neuroimaging derivatives (e.g., full subject-level connectome matrices, voxel-wise diffusion metric maps) used in this research are not directly hosted in this repository. _
+### Data Availability Statement
+The Jupyter notebooks containing the analysis code, key methodological information, and processing steps for this study are provided within this repository. These notebooks allow for an understanding of how the main results were generated. The primary processed neuroimaging derivatives (e.g., full subject-level connectome matrices, voxel-wise diffusion metric maps) used in this research are not directly hosted in this repository.
