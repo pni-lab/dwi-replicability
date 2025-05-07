@@ -36,7 +36,7 @@ This work highlights the critical roles of sample size, choice of connectome/DWI
 ### Supplementary Information
 <img src="pipe.svg" alt="Machine learning pipeline" width="400" height="300">
 
-<img src="shap.svg" alt="SHAP analysis" width="400" height="300">
+<img src="shap.svg" alt="SHAP analysis" width="800" height="600">
 <p style="font-size: 10px; color: grey; font-style: italic;">
 This figure illustrates feature importance as determined by SHAP (SHapley Additive exPlanations) analysis. SHAP is a powerful technique rooted in cooperative game theory that enhances machine learning model interpretability by explaining individual predictions. It assigns each feature a 'SHAP value' for every prediction, quantifying how much that feature's specific value contributed to pushing the model's output away from a baseline (e.g., the average prediction). Positive SHAP values indicate the feature pushed the prediction higher, while negative values pushed it lower; the magnitude reflects the strength of this push. To assess overall feature importance across all data points, this plot displays the mean absolute SHAP values. This metric is calculated by averaging the absolute magnitude of each feature's SHAP values across all samples. Taking the absolute value is crucial as it ensures that strong positive and negative impacts don't cancel each other out, thus providing a robust measure of a feature's total predictive influence. Features are typically ranked by these mean absolute SHAP values, with higher values indicating greater overall importance to the model's predictions. Additionally, the Pearson r correlation coefficient and associated p-value, reflecting the linear relationship of each feature with the target measure, are also displayed.
 </p>
